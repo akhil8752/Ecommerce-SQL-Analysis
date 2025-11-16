@@ -1,0 +1,99 @@
+# E-Commerce SQL Analytics - Git Ignore File
+
+# === CRITICAL: SECURITY ===
+# NEVER commit credentials or sensitive data
+.env
+*.env
+config.py
+credentials.json
+secrets.json
+
+# Database credentials
+db_config.py
+database.ini
+
+# === Python ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook execution count
+*.ipynb
+
+# Re-include the main notebook (we DO want to track this)
+!Ecommerce-SQL-Analysis.ipynb
+
+# === IDE ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# === Operating System ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# === Data Files ===
+# Large data files (optional - uncomment if dataset is too large)
+# *.csv
+# *.xlsx
+# *.db
+# *.sqlite
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# === Logs ===
+*.log
+logs/
+
+# === Other ===
+# Temporary files
+*.swp
+*.swo
+*~
