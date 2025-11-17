@@ -183,8 +183,8 @@ Ecommerce-SQL-Analysis/
 │
 ├── Images/                                           # Screenshots & visualizations
 │   ├── schema_diagram.png
-│   ├── revenue_trends.png
-│   └── category_performance.png
+│   ├── top cities by revenue.png
+│   └── best selling products categories.png
 │
 ├── requirements.txt                                  # Python dependencies
 │
@@ -308,17 +308,17 @@ ORDER BY month;
 
 ## 📸 Visualizations
 
-### Monthly Revenue Trend
-![Monthly Revenue](Images/revenue_trends.png)
-*Shows declining trend in Q1 2024 requiring strategic intervention*
+### schema_diagram
+![schema_diagram](Images/schema_diagram.png)
+*Shows the table structure*
 
-### Category Performance
-![Category Performance](Images/category_performance.png)
-*Electronics dominates with 48% revenue share*
+### top cities by revenue
+![top cities by revenue](Images/top_cities_by_revenue.png)
 
-### Geographic Distribution
-![Geographic Distribution](Images/geographic_distribution.png)
-*Top 3 cities account for 52% of total revenue*
+
+### best selling products categories
+![best selling products categories](Images/best selling products categories.png)
+
 
 ---
 
@@ -398,10 +398,8 @@ This is a portfolio project, but feedback and suggestions are welcome!
 ## 📧 Contact
 
 **Your Name**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)  
-📊 Tableau: [public.tableau.com/yourprofile](https://public.tableau.com/profile/yourprofile)
+📧 Email: akhilak8752@gmail.com  
+💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/akhil8752)
 
 ---
 
@@ -416,6 +414,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Dataset**: Kaggle community for synthetic e-commerce dataset
 - **Inspiration**: Real-world e-commerce analytics practices
 - **Learning Resources**: SQL documentation, data analytics best practices
+- **AI Assistance**: Markdown formatting, documentation structure, and analytical guidance were supported by AI tools including Claude and ChatGPT.
+
 
 ---
 
@@ -436,6 +436,6 @@ This project demonstrates:
 
 **⭐ If you found this project helpful, please consider giving it a star!**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Akhil]
 
 </div>
